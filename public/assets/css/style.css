@@ -1,9 +1,4 @@
-/**
-* Template Name: Lonely - v4.7.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -453,7 +448,7 @@ section {
   color: #6b96be;
 }
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -921,6 +916,18 @@ section {
   font-size: 14px;
   margin: 0;
 }
+.mail-btn{
+  background: #d43076;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.mail-btn:hover {
+  background: #dd5a92;
+}
+
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
